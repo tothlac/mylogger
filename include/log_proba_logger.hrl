@@ -1,0 +1,1 @@
+-define(debug(Log), log_proba_logger:log(Log)).
