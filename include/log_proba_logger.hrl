@@ -1,1 +1,1 @@
--define(debug(Log), log_proba_logger:log(Log)).
+-define(debug(Type, Args), log_proba_logger:log(Args#{type => Type})).
